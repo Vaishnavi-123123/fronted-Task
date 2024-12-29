@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 90%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: aqua;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+    
+
+.card{
+    
+    width: 350px;
+    display: flex;
+    padding-bottom: 30px;
+    align-items: center;
+    
+    flex-direction: column;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px  ;
+    
+    
+}
+
+.card #coverphoto img{
+    object-fit: cover;
+    width: 100%;
+    height: 190px;
+    overflow: hidden;
+
+    
+}
+
+.card #profilephoto img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -20px;
+    overflow: hidden;
+    
+
+
+    
+    
+}
+
+#user{
+    text-align: center;
+}
+
+#user h3{
+    font-weight: 600;
+    font-size: 24px;
+    
+}
+
+#user h4{
+    font-weight: 600;
+    font-size: 17px;
+    color: #999999db;
+}
+
+
+#user p{
+    padding: 20px;
+    color: #484646de;
+}
+
+#details{
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+
+.card button{
+    padding: 11px 22px;
+    background-color: rgba(23, 98, 184, 0.937);
+    font-weight: 100;
+    font-size: 17px;
+    border: none;
+    color: white;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+button:active{
+    scale: 0.85;
+}
+

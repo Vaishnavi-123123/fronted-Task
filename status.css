@@ -1,0 +1,198 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(105, 207, 211);
+
+}
+
+.card{
+    width: 350px;
+    height: 600px;
+    border-radius: 8px;
+    background-color: rgba(15, 14, 14, 0.805);
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+#allstatus::-webkit-scrollbar{
+    display: none;
+}
+
+#status{
+    padding : 15px 10px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.866);
+    
+}
+
+ .card #allstatus{
+     height: 80%;
+    width: 100%;
+    position: absolute;
+    overflow: auto;
+     
+    
+    
+    
+}
+
+.overlay:-webkit-file-upload-button{
+    display: hidden;
+}
+
+.overlay{
+       display: flex;
+    padding: 10px;
+       gap: 20px;
+       
+       
+       transition: 0.2s;
+}
+
+.overlay:active{
+    scale: 0.99;
+}
+
+
+
+.overlay img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid 2.1px  green;
+    pointer-events: none;
+
+}
+
+
+
+#contect{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    pointer-events: none;
+
+    
+}
+#contect h3{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.775);
+    
+}
+
+#contect h6{
+    font-weight: 500;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+
+#update{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+
+}
+
+#update h2{
+    font-weight: 400;
+    color: white;
+
+
+}
+
+#icons{
+
+   color: white;
+   display: flex;
+   gap: 10px;
+   font-size: 20px;
+   font-weight: 400;
+   
+
+}
+
+
+#mystatus{
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.152);
+    
+}
+
+#mine img{
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+#detail h3{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.775);
+}
+
+
+
+#detail h6{
+    font-weight: 500;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+#mine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+#plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+    
+
+
+#full{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    display: none;
+}
+
+
+
+
